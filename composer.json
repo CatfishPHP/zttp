@@ -19,8 +19,11 @@
         "laravel/lumen-framework": "5.5.*"
     },
     "autoload": {
+        "psr-4": {
+            "Zttp\\": "src/"
+        },
         "files": [
-            "src/Zttp.php"
+            "src/tap.php"
         ]
     },
     "scripts": {
